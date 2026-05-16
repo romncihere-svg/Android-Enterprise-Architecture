@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Estrano Store\'s</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="categories">Categories</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="price_format">$%s</string>
+    <string name="cat_cheats">Game Cheats</string>
+    <string name="cat_source">Source Codes</string>
+    <string name="cat_bots">Discord Bots</string>
+    <string name="cat_menus">IMGUI Menus</string>
+
+</resources>

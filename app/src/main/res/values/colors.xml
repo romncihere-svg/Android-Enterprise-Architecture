@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <!-- Base Tones -->
+    <color name="background">#020408</color>
+    <color name="surface">#0A0F1A</color>
+    <color name="card_surface">#0E1424</color>
+    
+    <!-- Cyber Glows -->
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="neon_purple">#D500F9</color>
+    <color name="neon_green">#00FF88</color>
+    <color name="neon_gold">#FFD600</color>
+    
+    <!-- Text Tones -->
+    <color name="text_primary">#E1E8F0</color>
+    <color name="text_secondary">#7A8DA1</color>
+    <color name="text_muted">#404E67</color>
+    
+    <!-- Accents -->
+    <color name="accent_blue">#0091FF</color>
+    <color name="glass_border">#20FFFFFF</color>
+    <color name="glow_cyan_low">#1A00E5FF</color>
+    <color name="glow_purple_low">#1AD500F9</color>
+    
+    <!-- Utils -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="primary">#00E5FF</color>
+    <color name="primaryVariant">#0091FF</color>
+    <color name="onPrimary">#000000</color>
+    <color name="secondary">#D500F9</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onSurface">#E1E8F0</color>
+
+    <!-- Missing Colors -->
+    <color name="card_stroke">#20FFFFFF</color>
+    <color name="progress_track">#1AFFFFFF</color>
+    <color name="premium_gold">#FFD600</color>
+
+</resources>

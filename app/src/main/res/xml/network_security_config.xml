@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!-- Block all plain HTTP traffic - only HTTPS allowed -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Trust system CAs only (no user-installed CAs) -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Certificate pinning for our API (prevents MITM attacks) -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">example.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+        <!-- In production, add your certificate pin here:
+        <pin-set>
+            <pin digest="SHA-256">PASTE_YOUR_BASE64_PIN_HERE</pin>
+        </pin-set>
+        -->
+    </domain-config>
+
+</network-security-config>

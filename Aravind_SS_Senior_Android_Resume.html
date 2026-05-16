@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aravind S.S. - Android Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #4a4a4a;
+            --accent: #2563eb;
+            --border: #e5e7eb;
+            --bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+            padding: 40px;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--secondary);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+
+        .summary {
+            font-size: 14px;
+            color: var(--secondary);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .skill-category strong {
+            display: block;
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .skill-category p {
+            font-size: 13px;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .date {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        ul {
+            padding-left: 18px;
+            font-size: 13.5px;
+            color: var(--secondary);
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+        }
+
+        .project-header {
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 3px;
+        }
+
+        .project-meta {
+            font-size: 13px;
+            color: var(--secondary);
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        .links-section p {
+            font-size: 13px;
+            color: var(--secondary);
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body { padding: 0; }
+            .container { max-width: 100%; }
+            @page { margin: 1.5cm; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aravind S.S.</h1>
+            <div class="subtitle">Android Engineer | Application Security | Backend Systems</div>
+            <div class="contact-info">
+                <span>Trivandrum, Kerala, India</span> | 
+                <span>+91 7025640304</span> | 
+                <span>romncihere@gmail.com</span> | 
+                <span>romn.online/ME</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <div class="summary">
+                <p>Android engineer focused on modern Kotlin application architecture, offline-first systems, and mobile security. Experienced with MVVM, Hilt, Room, Coroutines, Kotlin Flow, and secure Android application development.</p>
+                <p style="margin-top: 10px;">Built and maintained Android systems with reactive data flows, automated testing, and backend integration using PHP/MySQL APIs. Strong interest in AI-assisted rapid product development, application security, and scalable mobile architecture.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Languages</strong>
+                    <p>Kotlin, Java, C/C++, SQL, PHP, Python</p>
+                    
+                    <strong>Android & Architecture</strong>
+                    <p>MVVM, Clean Architecture, Repository Pattern, Hilt/Dagger, ViewBinding, Navigation Component, Room Database, Coroutines, Kotlin Flow</p>
+                    
+                    <strong>Networking & Backend</strong>
+                    <p>Retrofit, OkHttp, REST API Integration, PHP, MySQL, JSON Parsing</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Security</strong>
+                    <p>Root Detection, Debugger Detection, Emulator Detection, AES-256 Encryption, Vulnerability Assessment, Application Security</p>
+                    
+                    <strong>Testing</strong>
+                    <p>Espresso, MockK, JUnit4, Coroutines Test</p>
+                    
+                    <strong>Build & Tools</strong>
+                    <p>Gradle, AGP, Git, CI/CD Fundamentals, Android Studio</p>
+                    
+                    <strong>UI/UX</strong>
+                    <p>Material Design 3, Lottie Animations, Facebook Shimmer, Custom Views</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="job-title">Founder & Android Developer | Estrano Syndicate</span>
+                    <span class="date">2022 – PRESENT</span>
+                </div>
+                <ul>
+                    <li>Developed Android applications using Kotlin, MVVM architecture, Hilt, Room, and Coroutines</li>
+                    <li>Built reusable Android starter architectures focused on scalability and maintainability</li>
+                    <li>Implemented offline-first data handling using Room Database and Kotlin Flow</li>
+                    <li>Integrated backend systems using PHP and MySQL APIs</li>
+                    <li>Added mobile security features including root detection, debugger detection, and encrypted local storage</li>
+                    <li>Improved application reliability using unit testing and UI testing with MockK and Espresso</li>
+                    <li>Designed modern UI systems with Material Design, Shimmer loading states, and Lottie animations</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="job-title">Security & Automation Developer | Batman Security</span>
+                    <span class="date">2023 – PRESENT</span>
+                </div>
+                <ul>
+                    <li>Performed Android application security analysis and vulnerability assessment</li>
+                    <li>Implemented protections against reverse engineering and runtime tampering</li>
+                    <li>Developed automation and moderation systems for online communities</li>
+                    <li>Built logging and management tools for operational workflows</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project-item">
+                <div class="project-header">Aether Studio Showcase</div>
+                <div class="project-meta">Production-grade Android architecture showcase project</div>
+                <ul>
+                    <li>Built using Kotlin, MVVM, Hilt, Room, Coroutines, Kotlin Flow, Retrofit, Espresso, and MockK</li>
+                    <li>Implemented offline-first architecture with reactive data handling</li>
+                    <li>Added secure local storage and runtime security protections</li>
+                    <li>Focused on scalable architecture, clean project structure, and modern Android development practices</li>
+                </ul>
+                <p style="font-size: 12px; margin-top: 5px; color: var(--secondary);"><strong>Tech Stack:</strong> Kotlin, Hilt, Room, Retrofit, Coroutines, Flow, Espresso, MockK, Material Design 3</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education & Certification</h2>
+            <ul>
+                <li>Offenso Certified Penetration Tester (OCPT)</li>
+                <li>Higher Secondary Education (+2) | Kerala, India</li>
+            </ul>
+        </section>
+
+        <section class="links-section">
+            <h2>Links</h2>
+            <p><strong>Portfolio:</strong> romn.online/ME</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/romncihere-svg/Android-Enterprise-Architecture" style="color: var(--accent); text-decoration: none;">github.com/romncihere-svg</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aravind-ss" style="color: var(--accent); text-decoration: none;">linkedin.com/in/aravind-ss</a></p>
+        </section>
+    </div>
+</body>
+</html>

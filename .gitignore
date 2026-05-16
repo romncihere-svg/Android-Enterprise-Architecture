@@ -1,0 +1,28 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Android Build Artifacts
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Security & Keys
+google-services.json
+*.jks
+*.keystore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Reports (Temporary)
+*_Report.txt
